@@ -40,7 +40,6 @@ public class Controller {
 
 				continue;
 			} catch (InputMismatchException e) {
-				System.out.println("캐치인풋");
 				View.io.cutPage();
 				View.io.inputError();
 				continue;
